@@ -1,5 +1,5 @@
 {
-  "name": "react-treelist",
+  "name": "@giraud/react-treelist",
   "version": "1.2.0",
   "description": "A React treelist component to display data in tree structure.",
   "main": "build/index.js",
@@ -23,11 +23,10 @@
   "homepage": "https://github.com/maheshsenni/react-treelist",
   "license": "MIT",
   "dependencies": {
-    "dateformat": "^1.0.12",
-    "lodash": "^4.17.2",
-    "object-hash": "^1.2.0",
-    "prop-types": "^15.6.1",
-    "react-scripts": "2.0.5"
+    "dateformat": "^5.0.0",
+    "lodash": "^4.17.21",
+    "object-hash": "^3.0.0",
+    "prop-types": "^15.0.0"
   },
   "devDependencies": {
     "autoprefixer": "7.1.6",

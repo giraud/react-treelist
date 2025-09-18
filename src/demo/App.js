@@ -1,7 +1,7 @@
 import React from 'react';
 import TreeList from '../lib';
 
-const { DATA, COLUMNS, OPTIONS, HANDLERS } = window.TreeListOptions;
+const { DATA, COLUMNS, OPTIONS, HANDLERS } = window.TreeListOptions || {};
 
 const App = () => (
   <TreeList

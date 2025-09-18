@@ -25,3 +25,6 @@ docs
 .travis.yml
 CHANGELOG.md
 README.md
+
+/.idea
+.eslintrc.json

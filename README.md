@@ -1,4 +1,7 @@
-# react-treelist [![Build Status](https://travis-ci.org/maheshsenni/react-treelist.svg?branch=master)](https://travis-ci.org/maheshsenni/react-treelist)
+# react-treelist
+
+!! Forked to update dependencies
+
 
 A React treelist component to display data in tree structure. Uses virtual scrolling to display large data sets without performance issues.
 
