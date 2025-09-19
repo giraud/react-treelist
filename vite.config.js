@@ -7,17 +7,15 @@ let __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
     build: {
+        copyPublicDir: false,
         lib: {
             entry: resolve(__dirname, "src/lib/index.js"),
-            name: "Treelist",
-            fileName: "react-treelist"
+            formats: ["es"]
         },
         rollupOptions: {
-            external: ["react"],
+            external: ["react", "react/jsx-runtime"],
             output: {
-                globals: {
-                    react: "react"
-                }
+                entryFileNames: "[name].js"
             }
         },
     },

@@ -1,18 +1,11 @@
 {
   "name": "@giraud/react-treelist",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "module",
   "files": [
     "dist"
   ],
-  "module": "./dist/@giraud/react-treelist.js",
-  "main": "./dist/@giraud/react-treelist.js",
-  "exports": {
-    ".": {
-      "import": "./dist/@giraud/react-treelist.js",
-      "require": "./dist/@giraud/react-treelist.umd.cjs"
-    }
-  },
+  "main": "dist/index.js",
   "description": "A React treelist component to display data in tree structure.",
   "scripts": {
     "start": "vite dev",
