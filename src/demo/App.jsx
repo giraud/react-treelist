@@ -1,5 +1,5 @@
 import React from 'react';
-import TreeList from '../lib';
+import TreeList from '../lib/index.js';
 
 const { DATA, COLUMNS, OPTIONS, HANDLERS } = window.TreeListOptions || {};
 

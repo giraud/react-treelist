@@ -4,7 +4,7 @@
 /node_modules
 
 # production
-/build
+/dist
 /docs
 
 # testing
@@ -22,3 +22,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /.idea
+.node-version

@@ -26,5 +26,6 @@ docs
 CHANGELOG.md
 README.md
 
+dist/demo
 /.idea
 .eslintrc.json
